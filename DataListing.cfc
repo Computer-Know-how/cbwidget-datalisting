@@ -1,19 +1,19 @@
 /**
 * A widget that lists information from the ContentStore
 */
-component extends="contentbox.model.ui.BaseWidget" singleton{
+component extends="contentbox.models.ui.BaseWidget" singleton{
 
 	DataListing function init(required any controller){
 		// super init
 		super.init( arguments.controller );
 
 		// Widget Properties
-		setPluginName( "DataListing" );
-		setPluginVersion( "1.0" );
-		setPluginDescription( "A widget that renders ContentStore data." );
-		setPluginAuthor( "Computer Know How" );
-		setPluginAuthorURL( "http://www.compknowhow.com" );
-		setIcon( "window-text.png" );
+		setName( "DataListing" );
+		setVersion( "1.1" );
+		setDescription( "A widget that renders ContentStore data." );
+		setAuthor( "Computer Know How" );
+		setAuthorURL( "http://www.compknowhow.com" );
+		setIcon( "list" );
 		setCategory( "Content" );
 
 		return this;
